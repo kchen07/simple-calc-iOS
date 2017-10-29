@@ -118,7 +118,7 @@ class ViewController: UIViewController {
                         result *= Double(numbers![index])!
                     }
                 }
-            } else if (input?.contains("*"))!{
+            } else if (input?.contains("/"))!{
                 var numbers = input?.components(separatedBy: "/")
                 if ((numbers?[1] == "")) {
                     clearContent()
